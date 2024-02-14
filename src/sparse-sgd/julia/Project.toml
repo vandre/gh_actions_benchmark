@@ -1,0 +1,5 @@
+[deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+ZipFile = "a5390f91-8eb1-5f08-bee0-b1d1ffed6cea"

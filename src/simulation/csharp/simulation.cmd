@@ -1,0 +1,1 @@
+dotnet build && dotnet run -- --anyCategories simd --envVars SCENARIOS:10
