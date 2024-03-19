@@ -79,7 +79,7 @@ jobs:
       - name: CSharp Run
         run: |
           cd src/similarity/csharp
-          dotnet run -- --exporters json --filter *cnt_ParForEach
+          dotnet run -- --exporters json --filter *cnt_For
           find BenchmarkDotNet.Artifacts -type f -name *compressed.json -exec cp -v {} ~/bench.cs.json \;
       - name: Check Directory
         run: |
